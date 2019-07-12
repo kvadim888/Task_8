@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xxProperties>
+<propertyGroup name="project.information">
+<version value="3.0"/>
+</propertyGroup>
+<propertyGroup name="build.property">
+<buildTarget defaultTarget="Debug"/>
+</propertyGroup>
+<propertyGroup name="build.exclusion.data">
+<buildExclusionDatas>
+<exclusionSet name="Default" selected="1">
+<excludedEntry data="/.*/bin/.*"/>
+<excludedEntry data="/.*/inc/getopt\.h"/>
+<excludedEntry data="/.*/inc/libdsp\.h"/>
+<excludedEntry data="/.*/inc/libsignal\.h"/>
+<excludedEntry data="/.*/inc/libwav\.h"/>
+<excludedEntry data="/.*/src/dsp_FIR\.c"/>
+<excludedEntry data="/.*/src/dsp_allpass\.c"/>
+<excludedEntry data="/.*/src/dsp_biquad\.c"/>
+<excludedEntry data="/.*/src/dsp_compressor\.c"/>
+<excludedEntry data="/.*/src/dsp_crossover\.c"/>
+<excludedEntry data="/.*/src/dsp_expander\.c"/>
+<excludedEntry data="/.*/src/dsp_limiter\.c"/>
+<excludedEntry data="/.*/src/getopt\.c"/>
+<excludedEntry data="/.*/src/libdsp\.c"/>
+<excludedEntry data="/.*/src/libsignal\.c"/>
+<excludedEntry data="/.*/src/libwav\.c"/>
+</exclusionSet>
+</buildExclusionDatas>
+</propertyGroup>
+<propertyGroup name="build.auto.includes">
+<exportDirs autoConsumeDirs="true" includeDepDirs="true" mode="auto"/>
+</propertyGroup>
+<propertyGroup name="library.dependencies"/>
+<propertyGroup name="build.custom.steps"/>
+</xxProperties>

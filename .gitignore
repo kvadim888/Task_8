@@ -1,0 +1,10 @@
+cmake-build-debug
+build
+.idea
+.vscode
+.settings
+bin
+*.o
+*.a
+*.wav
+
